@@ -4,6 +4,6 @@ on: [push]
 
 jobs:
   test-call:
-    uses: EinManu-glitch/francora-github-actions/.github/workflows/hello-world.yml@main
+    uses: Francora-Development/francora-github-actions/.github/workflows/hello-world.yml@main
     with:
       message: "Der erste zentrale Workflow funktioniert perfekt!"
