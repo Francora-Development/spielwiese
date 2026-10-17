@@ -1,0 +1,7 @@
+name: Test Workflow
+
+on: [push]
+
+jobs:
+  test-call:
+    uses: francora/francora-github-actions/.github/workflows/ci-standard.yml@main
